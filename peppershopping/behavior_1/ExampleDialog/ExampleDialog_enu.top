@@ -1,0 +1,25 @@
+topic: ~ExampleDialog()
+language: enu
+
+# Defining needed concepts, keywords or sentences corresponding to a concept.
+concept:(yes) [yes "all right" sure "why not" ok certainly "very well" yep yea definitely amen]
+concept:(no) [no nope "don't want" "no way" never "not at all"]
+concept:(how) ["how are you" howdy "what's up" "how do you feel"]
+concept:(happy) [ok fine great happy blessed "all right" glad "not bad"]
+concept:(sad) [sad miserable bad unhappy tired]
+concept:(repeat) [repeat understand]
+concept:(thx) ["thank you" thanks gracias "much obliged" merci]
+concept:(hello) [hello hi hey "good morning" greetings]
+concept:(bye) [bye goodbye "bye bye" "tata" "see you" adios cheerio "so long" farewell "have a nice day"]
+
+
+u:(~hello) How can I help you?
+u:(I'm looking for shirt.) Okay, please follow me.
+u:(Where is the fitting room?) Over there, please follow me.
+u:(Do you have these in small size?) Yes, please wait a minute I'll bring it for you.
+u:(Do you have these in XL size?) Sorry, It's out of stock.
+u:(~thx) Are there any other question?
+    u1:(~yes) You can ask me.
+    u1:(~no) please enjoy your shopping.
+    
+    

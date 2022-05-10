@@ -1,0 +1,15 @@
+topic: ~my_dialog()
+language: enu
+
+concept:(greeting) [hello morning hi "good morning" hey]
+concept:(dance) [ "dance please" "can you dance?" "dance for us"]
+concept:(positive) [yes sure "I love that" "I want that" "I need that"]
+concept:(negative) [no "no, i don't" nope "no, thankyou"]
+concept:(ending) [Bye Bye-Bye "see you next time" "see you tomorrow"]
+
+u:(~greeting) Hello, Are you looking for tops, bottoms, dresses or accessories?
+u:(tops) okay, please follow me $shirt=1
+u:(bottoms) okay, please follow me $bottoms=1
+u:(dresses) okay, please follow me $dress=1
+u:(accessories) okay, please follow me $accessories=1
+u:(thank you) you're welcome, please enjoy your shopping.
